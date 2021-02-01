@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>My sample homepage</title>
+  </head>
+
+  <body>
+    <h1>Qué es PWA: características, tecnologías, ventajas y desventajas</h1>
+
+    <p>
+      Cada vez es más habitual escuchar que una empresa tiene una Progressive
+      Web App, pero… ¿realmente sabemos qué es? En este post veremos qué es,
+      cuáles son sus <a href="#caracteristica_1">características</a> , las
+      tecnologías que emplea, sus ventajas y desventajas y, en definitiva, todo
+      lo que convierte una PWA en una opción muy interesante para desarrollar un
+      proyecto.
+    </p>
+    <p>
+      <a href="http://www.example.com/large-report.pdf">
+        Descarga el informe de ventas (PDF, 10MB)
+      </a>
+    </p>
+
+    <p>
+      <a href="http://www.example.com/video-stream/">
+        Reproduce el vídeo (el flujo de datos se abre en una pestaña
+        independiente, calidad HD)
+      </a>
+    </p>
+
+    <p>
+      <a href="http://www.example.com/car-game">
+        Juega al juego del automóvil (requiere Flash)
+      </a>
+    </p>
+
+    <a href="https://download.mozilla.org/?product=firefox-latest-ssl&os=win64&lang=es-MX"
+   download="firefox-latest-64bit-installer.exe">
+  Descarga la última versión de Firefox para Windows (64 bits) (Español, es-MX)
+</a>
+    <h2>¿Qué es PWA?</h2>
+
+    <p>
+      PWA (Progressive Web App) no es un término nuevo (Google lo introdujo en
+      2015), pero es desconocido para muchas personas. Las PWA se definen
+      comúnmente como las
+      <strong
+        >Apps que reúnen lo mejor de las aplicaciones web y de las
+        nativas</strong
+      >, incluso llegando a ser entendidas como un punto medio o una forma
+      evolucionada.
+    </p>
+
+    <p>
+      La base son páginas webs, pero utilizan tecnologías que hacen que su
+      estética y funcionamiento se asemejen enormemente a una App nativa, por
+      ejemplo, mediante la ejecución en segundo plano. Se accede a ellas a
+      través de un navegador, pero se puede anclar un acceso directo en nuestro
+      dispositivo (en la pantalla de inicio o en el menú de aplicaciones). No
+      dependen de sistemas operativos (se ejecutan en el navegador) y van
+      incorporando funcionalidades nativas del dispositivo.
+    </p>
+
+    <h2 id="caracteristica_1">Características de una PWA</h2>
+
+    <p>
+      Para entender en mayor profundidad qué ofrece una Progressive Web App y,
+      por tanto, en qué se diferencia de otro tipo de aplicaciones o de las webs
+      comunes, pasamos a señalar algunas de las características que la definen:
+    </p>
+
+    <h3>Responsive</h3>
+    <p>
+      En la actualidad, la mayoría de webs cuentan con diseño responsive que las
+      permite adaptarse a diferentes dispositivos, algo imprescindible con el
+      papel predominante de los smartphones. A pesar de que las PWA van más allá
+      del simple diseño responsive, este se puede seguir mencionando como una de
+      sus características principales. Estas Apps deben adaptarse
+      automáticamente a cualquier formato, navegador o dispositivo (con los
+      consecuentes cambios de medidas y resolución), y más considerando la
+      naturaleza mobile de las mismas.
+    </p>
+
+    <h3>Actualizada</h3>
+
+    <p>
+      Las PWA siempre mostrarán su última versión al usuario, con el empleo de
+      actualizaciones automáticas, de manera constante e instantánea y sin
+      necesidad de descargarlas. Esto es posible gracias al empleo de Service
+      Workers y porque no deja de ser una web App, independiente de la
+      publicación (y todo el proceso de revisión e instalación por parte del
+      usuario que conlleva) en los markets de aplicaciones.
+    </p>
+
+    <h3>Segura</h3>
+    <p>
+      Se usa siempre el protocolo seguro
+      <a href="" title="protocolo que permite transferencias de archivos"
+        >HTTPS</a
+      >
+      que, además, es necesario para la instalación del Service Worker. Esto
+      posibilita asegurar que el acceso sea seguro y que el contenido servido no
+      haya sido sujeto a manipulaciones. Se emplean tecnologías como TLS para el
+      cifrado web.
+    </p>
+
+    <h3>Funcionalidades propias de una App nativa</h3>
+
+    <p>
+      Con la evolución de las PWA, han ido adquiriendo opciones que antes se
+      reservaban únicamente a las Apps nativas, como el acceso a distintas
+      funciones del dispositivo. Las Progressive Web App pueden, por ejemplo,
+      acceder a la geolocalización del dispositivo, al Bluetooth, sincronizarse
+      en segundo plano o enviar notificaciones push (incluso cuando no está
+      abierta la PWA). Estas notificaciones son una potente herramienta de
+      comunicación que permite informar al usuario e invitarle a acceder,
+      aumentando las visitas y, en consecuencia, las conversiones. Se debe
+      considerar que estas posibilidades no están disponibles para todos los
+      navegadores.
+    </p>
+
+    <a href="https://www.mozilla.org/es-ES/">
+      <img src="img/Programador-trabajando-en-Progressive-Web-App.jpg" alt="" />
+    </a>
+
+    <h3>Manifiesto de la aplicación</h3>
+
+    <p>
+      En Android y Chrome se utiliza un archivo JSON muy sencillo, conocido como
+      Manifiesto. Este permite especificar diversas características para
+      controlar cómo se visualizará la App tras ser instalada. Algunas de las
+      informaciones que contiene son:
+    </p>
+
+    <ul>
+      <li>Nombre (name y short_name)</li>
+      <li>
+        Icono (icons), lo que se ve en la pantalla de inicio o menú tras
+        instalarla
+      </li>
+      <li>
+        Colores (theme_color para la barra superior y background_color para la
+        pantalla de carga de la App)
+      </li>
+      <li>
+        Colores (theme_color para la barra superior y background_color para la
+        pantalla de carga de la App)
+      </li>
+      <li>
+        Colores (theme_color para la barra superior y background_color para la
+        pantalla de carga de la App)
+      </li>
+      <li>
+        Colores (theme_color para la barra superior y background_color para la
+        pantalla de carga de la App)
+      </li>
+      <li>Display (display), con distintas configuraciones para la pantalla</li>
+    </ul>
+
+    <h2>Ventajas y desventajas de las PWA</h2>
+    <p>
+      Tras mencionar las principales características de una PWA, es muy sencillo
+      entender de dónde procede su protagonismo y, con ello, cuáles son sus
+      ventajas. Enumeramos a continuación las más destacables:
+    </p>
+
+    <p>
+      Tras mencionar las principales características de una PWA, es muy sencillo
+      entender de dónde procede su protagonismo y, con ello, cuáles son sus
+      ventajas. Enumeramos a continuación las más destacables:
+    </p>
+
+    <ul>
+      <li>
+        <strong>Bajo coste:</strong> el coste que suponen el desarrollo, el
+        mantenimiento y las actualizaciones es menor que las Apps nativas. Esto
+        se debe a que la programación es más sencilla y no requiere diferentes
+        versiones en función del navegador o dispositivo.
+      </li>
+      <li>
+        <strong>Bajo coste:</strong> el coste que suponen el desarrollo, el
+        mantenimiento y las actualizaciones es menor que las Apps nativas. Esto
+        se debe a que la programación es más sencilla y no requiere diferentes
+        versiones en función del navegador o dispositivo.
+      </li>
+      <li>
+        <strong>Bajo coste:</strong> el coste que suponen el desarrollo, el
+        mantenimiento y las actualizaciones es menor que las Apps nativas. Esto
+        se debe a que la programación es más sencilla y no requiere diferentes
+        versiones en función del navegador o dispositivo.
+      </li>
+      <li>
+        <strong>Bajo coste:</strong> el coste que suponen el desarrollo, el
+        mantenimiento y las actualizaciones es menor que las Apps nativas. Esto
+        se debe a que la programación es más sencilla y no requiere diferentes
+        versiones en función del navegador o dispositivo.
+      </li>
+    </ul>
+
+    <p>
+      Desde <a href="https://www.twitch.tv/soycoder">Digital55</a> podemos
+      ayudarte a desarrollar una PWA. ¿Tienes algún proyecto en mente con el que
+      podamos echarte una mano?
+    </p>
+  </body>
+</html>
