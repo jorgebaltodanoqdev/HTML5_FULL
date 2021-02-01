@@ -1,4 +1,4 @@
-# HTML
+# HTML5
 **HTML5**  es la última versión de HTML. El término representa dos conceptos diferentes:
 
 Se trata de una nueva versión de HTML, con nuevos elementos, atributos y comportamientos.
