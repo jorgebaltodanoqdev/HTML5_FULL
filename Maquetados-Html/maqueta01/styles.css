@@ -1,0 +1,31 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 30px;
+}
+
+p,h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*FORMATANDO TEXTOS*/
+
+h1{
+    font-size: 2.3em; /*Define tamaño fuente */
+    font-weight: bold; /*Define grosor fuente*/
+    font-style: oblique;/*Define estilo fuente*/
+    font-variant: small-caps;/*Define tamaño de mayusculas*/
+    
+}
+
+div{
+    margin: 2px 2px 2px 2px;
+    padding: 2px 2px 2px 2px;
+}
+/* 
+p{
+    text-transform: uppercase; /*Convierte texto mayuscula*/
+    /* text-align: justify; Alinea el texto segun su valor */
+    /* text-indent: 10px; Aplica un identado por parrafo a la derecha */
+    /* letter-spacing: .1em; Genera espacio entre letras */
+    /* line-height: 2.2em; Espacio entre lineas */
+/* } */
