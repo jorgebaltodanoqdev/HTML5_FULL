@@ -1,0 +1,416 @@
+body{
+    margin: 10px 10px 10px 10px;
+    border: 0px;
+    padding: 0px;
+}
+
+/* __Header__ */
+
+.header__main{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(51, 46, 46,20);
+    position: relative;
+    display: inline-block; 
+    padding: 2px;
+ 
+}
+
+.header__tittle , .header__subtittle{
+    width: 50%;
+    height: 100px;
+    /* background-color: rgba(48, 68, 254, 99); */
+    font-family: 'Ranchers', cursive;
+    position: relative;
+    left: 30%;
+    top: 10px;
+   
+}
+
+/*Style Title*/
+#tittle{
+    font-size: 90px;
+    color: white;
+    display: inline-flex;
+    position: absolute;
+    left: 25%;
+    bottom: 1px;
+    top: 10px;
+    margin: 0px;
+}
+
+#subtittle{
+    font-family: serif;
+    color: white;
+    align-content: center;
+    position: relative;
+    left: 35%;
+}
+/*Subtitle*/
+
+.header__subtittle{
+    height: 50px; /**/
+    /* background-color: rgba(235, 62, 0, 92); */
+    top: 19px; /**/
+}
+
+/* Docker Main*/
+.docker__main{
+    width: 100%;
+    height: 2350px;
+    background-color: rgba(226, 243,250, 98);
+    display: inline-flex;
+    padding: 5px;
+}
+
+
+/*Docker Main One*/
+.docker_sections_one,
+.docker_sections_two{
+    width: 50%;
+    height: 2350px;
+    /* background-color: rgba(252, 227, 126, 99); */
+    
+}
+
+/* Sect My Store*/
+.sect_mystores{
+    width: 90%;
+    height: 180px;
+    background-color: rgba(86, 179, 255,100);
+    position: relative;
+    left: 5%;
+    top: 15px;
+}
+
+.images_stores{
+    /* background-image: url(img/menu2.png); */
+    width: 100%;
+    height: 180px;
+
+}
+
+/*Section Product*/
+.sect_product{
+    width: 90%;
+    height: 450px;
+    background-color: rgba(255, 38, 79, 100);
+    position: relative;
+    left:5% ;
+    top: 50px;
+}
+
+.images_product{
+    width: 100%;
+    height: 280px;
+    background-color: rgba(98, 149,227,89);
+    position: relative;
+    left:0%;
+ 
+}
+
+.img_product_one{
+    width: 100%;
+    height: 300px;
+}
+
+
+.content_product{
+    width: 100%;
+    height: 170px;
+    background-color: rgba(207, 255,250,100);
+    position: relative;
+    left:0% ;
+    
+}
+
+p{
+    align-items: center;
+    display: inline-flex;
+    position: absolute;
+    left: 3%;   
+    top: 50px;
+    padding: 1px;
+}
+
+
+
+/*Sect Favorites*/
+.sect_favorites{
+  width: 90%;
+  height: 750px;
+  background-color: rgba(255, 38, 79, 100);
+  position: relative;
+  left: 5%;
+  top: 120px;
+}
+
+.image_favorites{
+    width: 100%;
+    height: 400px;
+    background-color: rgba(98, 149,227,89);
+    position: relative;
+    left:0%;
+}
+
+.img_favorites{
+    width: 100%;
+    height: 400px;
+}
+
+
+.icons_favorites{
+    width: 15%;
+    height: 100px;
+    background-color: rgba(98, 227,191,89);
+    position: relative;
+    left: 1%;
+    display: inline-flex;
+    margin: 2%;
+    
+}
+
+.icn_favorites
+{
+    width: 100%;
+    height: 90px;
+}
+
+
+.content_favorites{
+    width: 100%;
+    height: 250px;
+    background-color: rgba(207, 255,250,100);
+    position: relative;
+    left:0%;
+} 
+
+.sect_info{
+    width: 90%;
+    height:720px;
+    background-color: rgba(255, 38, 79, 100);
+    position: relative;
+    left: 5%;
+    top: 230px;
+}
+
+
+/*Docker Main Two*/
+.docker_sections_two{
+    
+    /* background-color: rgba(252, 174, 126, 99);  */
+    
+}
+
+.sect_product_first,.sect_product_two{
+    width: 90%;
+    height: 350px;
+    background-color: rgba(255, 38, 79, 100);
+    position: relative;
+    left:5% ;
+    top: 50px;
+}
+
+.images_product_first, .images_product_two{
+    width: 100%;
+    height: 230px;
+    background-color: rgba(98, 149,227,89);
+    position: relative;
+    left:0%;
+ 
+}
+
+.content_product_first, .content_product_two{
+    width: 100%;
+    height: 120px;
+    background-color: rgba(207, 255,250,100);
+    position: relative;
+    left:0% ;
+}
+
+.sect_product_two{
+    width: 90%;
+    height: 80px;
+    display: inline-flex;
+    position:relative;
+    top:120px;
+
+   
+}
+.images_product_two{
+    width: 40%;
+    height: 80px;
+   
+ 
+}
+
+.content_product_two{
+    width: 60%;
+    height: 80px;
+  
+}
+
+/*Sect Two Product Three*/
+.sect_product_three{
+    width: 40%;
+    height: 380px;
+    background-color: rgba(255, 38, 79, 100);
+    position: relative;
+    left:5% ;
+    top: 150px;
+}
+
+.images_product_three{
+    width: 100%;
+    height: 230px;
+    background-color: rgba(98, 149,227,89);
+    position: relative;
+    left:0%;
+ 
+}
+
+ .content_product_three{
+    width: 100%;
+    height: 150px;
+    background-color: rgba(207, 255,250,100);
+    position: relative;
+    left:0% ;
+}
+
+/*Sect Two Product Four*/
+.sect_product_four{
+    width: 30%;
+    height: 280px;
+    background-color: rgba(255, 38, 79, 100);
+    position: relative;
+    left:60% ;
+    bottom: 220px;
+}
+
+.images_product_four{
+    width: 100%;
+    height: 180px;
+    background-color: rgba(98, 149,227,89);
+    position: relative;
+    left:0%;
+ 
+}
+
+ .content_product_four{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(207, 255,250,100);
+    position: relative;
+    left:0% ;
+}
+
+/*Sect Product Five and Six*/
+.sect_product_five, .sect_product_six{
+    width: 90%;
+    height: 18px;
+    background-color: rgba(255, 38, 79, 100);
+    position: relative;
+    left:5% ;
+   
+}
+
+.images_product_five, .sect_product_six{
+    width: 100%;
+    height: 180px;
+    background-color: rgba(98, 149,227,89);
+    position: relative;
+    left:0%;
+}
+
+/*Sect Product Six*/
+.sect_product_six{
+    width: 40%;
+    left: 10%;
+    top: 220px;
+}
+
+/*Sect Product Seven*/
+.sect_product_seven{
+    width: 90%;
+    height: 300px;
+    background-color: rgba(255, 38, 79, 100);
+    position: relative;
+    left:5% ;
+    top: 290px;
+}
+
+.images_product_seven{
+    width: 50%;
+    height: 300px;
+    background-color: rgba(98, 149,227,89);
+    position: relative;
+    left:0%;
+    display: inline-flex;
+}
+
+.content_product_seven{
+    width: 50%;
+    height: 300px;
+    background-color: rgba(207, 255,250,100);
+    position: relative;
+    left:0% ;
+    display:inline-flex;
+    float: right;
+}
+
+
+/*Sect Product eigth*/
+.sect_product_eigth{
+    width: 40%;
+    height: 380px;
+    background-color: rgba(255, 38, 79, 100);
+    position: relative;
+    left:5% ;
+    top: 330px;
+}
+
+.images_product_eigth{
+    width: 100%;
+    height: 230px;
+    background-color: rgba(98, 149,227,89);
+    position: relative;
+    left:0%;
+ 
+}
+
+ .content_product_eigth{
+    width: 100%;
+    height: 150px;
+    background-color: rgba(207, 255,250,100);
+    position: relative;
+    left:0% ;
+}
+
+/*Sect Product Nine*/
+.sect_product_nine{
+    width: 30%;
+    height: 300px;
+    background-color: rgba(255, 38, 79, 100);
+    position: relative;
+    left:60% ;
+   
+    
+}
+
+.images_product_nine{
+    width: 100%;
+    height: 200px;
+    background-color: rgba(98, 149,227,89);
+    position: relative;
+    left:0%;
+ 
+}
+
+ .content_product_nine{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(207, 255,250,100);
+    position: relative;
+    left:0% ;
+}
+
