@@ -19,3 +19,12 @@ HTML estructura este contenido. Le da contexto, describe el contenido y le dice 
 
 - ISBN :  9781838824532
 
+> ### Lo que se a comprender
+
+- Comprender cómo se construyen, estructuran y diseñan los sitios web
+- Domina la sintaxis y la estructura de HTML y CSS.
+- Sepa cómo construir sitios web desde cero usando HTML5 y CSS3
+- Cree formularios intuitivos que permitan a los usuarios ingresar datos
+- Diseñe su sitio web integrando videos, animaciones y temas
+- Diseñe sitios web sólidos que funcionen en todos los dispositivos modernos sin problemas
+- Descubra cómo mantener y mejorar el rendimiento de un sitio web
