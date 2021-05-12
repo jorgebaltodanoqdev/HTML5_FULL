@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Welcome to Bethany's Pie Shop!</title>
+    <meta name="author" content="Bethany's Pie Shop">
+    <meta name="description" content="Store front for Bethany's Pie Shop">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header id="mainheader">
+        <nav>
+            <ul>
+                <li><img src="images/x-16-2-512.png" height="55" /></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">All pies</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div style="width:1000px;margin-left: auto;margin-right: auto;">
+        <aside id="leftmenu">
+            <a href="#">
+                <img src="images/diseno-logotipo-supermercado-lema-tienda_23-2148458443.jpg"  class="img-logo" />
+            </a>
+
+            <header>
+                <h4 style="text-align: center;">Browse our pies</h4>
+            </header>
+            <ul>
+                <li><a href="#">All pies</a></li>
+                <li><a href="#">Cheese cakes</a></li>
+                <li><a href="#">Fruit pies</a></li>
+                <li><a href="#">Seasonal pies</a></li>
+            </ul>
+        </aside>
+        <main id="main">
+            <h1>Contact Us</h1>
+            <form action="contact.html" method="post" enctype="application/x-www-form-urlencoded">
+                <!--Conctact Information-->
+                <fieldset>
+                    <legend>Conctact Information</legend>
+                    <!--name-->
+                    <label>*Your name: <br>
+                        <input required type="text" name="customerName" id=""> <br>
+                    </label> <br>
+                    <!--email-->
+                    <label> Your email: <br>
+                        <input type="email" name="customarEmail" id=""> <br>
+                    </label> <br>
+                    <!--phone-->
+                    <label> Your phone: <br>
+                        <input type="tel" name="customerPhone" id=""> <br>
+                    </label> <br>
+                    <!--phone types-->
+                    <label> Phone types: <br>
+                        <input type="radio" name="phonetypes" id=""> Cell
+                        <input type="radio" name="phonetypes" id=""> Work
+                        <input type="radio" name="phonetypes" id=""> Home
+                    </label> <br> <br>
+                    <!--contact me-->
+                    <label>Contact me: <br>
+                        <input type="checkbox" name="phone" id=""> by phone
+                        <input type="checkbox" name="email" id=""> by email
+                    </label> <br> <br>
+                </fieldset>
+                <!--Conctact Feedback-->
+                <fieldset>
+                    <legend>Feedback</legend>
+                    <!--commnet-->
+                    <label>
+                        <textarea rows="5" cols="50"></textarea>
+                    </label> <br>
+                    <!--commnet types-->
+                    <label> Feedback types: <br>
+                        <select name="feedbacktypes" id="">
+                            <optgroup label="Type store">
+                                <option value="web">Web store</option>
+                                <option value="physical">Physical store</option>
+                            </optgroup>
+                            <optgroup label="Action store">
+                                <option value="issues">Website Isues</option>
+                                <option value="feedback">General feedback</option>
+                            </optgroup>
+                        </select>
+                    </label> <br> <br>
+                    <!--range-->
+                    <label> Range: <br>
+                        <input type="range" name="severty" id="">
+                    </label> <br> <br>
+                    <!--date-->
+                    <label> Date: <br>
+                        <input type="date" name="issuedate" id="">
+                    </label>
+                </fieldset>
+
+                <input type="submit" value="Enviar" name="send">
+
+            </form>
+
+        </main>
+
+        <footer>
+            <p>Our address is
+            <address>Bethany's Pie Shop - Bakery Street 555 Brussels Belgium</address>
+            </p>
+            <p><small>&copy; 2020 Bethany's Pie Shop - All rights reserved</small></p>
+            <p>Contact us via <a href="mailto:info@bethanyspieshop.com">email</a></p>
+            <p><small><a href="https://www.snowball.be">Created by Snowball</a></small></p>
+        </footer>
+    </div>
+</body>
+
+</html>
